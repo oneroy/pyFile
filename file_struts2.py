@@ -26,7 +26,7 @@ def main():
     outFile=open('struts2.txt','a+')
 
     while True:
-        line=inFile.readline().strip()
+        line=inFile.readline()
         if len(line)==0:break
         myline = my_struts2(line)
         if myline != '':
